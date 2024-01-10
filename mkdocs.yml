@@ -1,0 +1,17 @@
+site_name: Hands-on Learning AI
+theme:
+  name: material
+  features:
+    - navigation.tabs
+nav:
+  - Home: index.md
+  - Machine Learning:
+    - Linear Regression: machine_learning/linear_regression.md
+  - Deep Learning:
+    - CNN: deep_learning/cnn.md
+    - RNN: deep_learning/rnn.md
+  - Practical Problems:
+    - Image Classification: practical_problems/image_classification.md
+    - Object Detection: practical_problems/object_detection.md
+    - Image Segmentation: practical_problems/image_segmentation.md
+  - About: about.md
